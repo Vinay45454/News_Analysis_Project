@@ -58,7 +58,7 @@ A comprehensive project for automating news article analysis, integrating web sc
    - Enter a URL or paste article text into the Streamlit interface.
 2. Processing:
    - `news_scraper.py`: Scrapes and cleans HTML content.
-   - `entity_extraction.py`: Identifies entities (names, locations, etc.).
+   - `entity_extraction.py`: Identifies entities (Person names, Orginisations).
    - `sentiment_analysis.py`: Performs sentiment analysis.
    - `dbstore.py`: Saves processed data in MongoDB.
 3. Output: 
