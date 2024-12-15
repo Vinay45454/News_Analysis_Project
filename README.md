@@ -1,5 +1,4 @@
-```markdown
- News Analysis Automation
+News Analysis Automation
 
 A comprehensive project for automating news article analysis, integrating web scraping, entity extraction, sentiment analysis, and MongoDB for data storage. The project is containerized using Docker and provides an intuitive interface with Streamlit.
 
@@ -24,7 +23,7 @@ A comprehensive project for automating news article analysis, integrating web sc
    ```bash
    git clone https://github.com/Vinay45454/News_Analysis_Project
    cd News_Analysis_Project
-   ```
+
 2. Add a `.env` file with MongoDB credentials (if required).
 3. Build and start Docker containers:
    ```bash
