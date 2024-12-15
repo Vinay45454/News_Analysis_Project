@@ -1,10 +1,10 @@
 ```markdown
-# News Analysis Automation
+ News Analysis Automation
 
 A comprehensive project for automating news article analysis, integrating web scraping, entity extraction, sentiment analysis, and MongoDB for data storage. The project is containerized using Docker and provides an intuitive interface with Streamlit.
 
 
-## Features
+ Features
 - 🌐 Web Scraping: Extracts article content using `news_scraper.py` with BeautifulSoup.
 - 🧠 Named Entity Recognition (NER): Extracts entities using spaCy.
 - 😊 Sentiment Analysis: Categorizes sentiments using VADER.
@@ -13,13 +13,13 @@ A comprehensive project for automating news article analysis, integrating web sc
 - 🐳 Containerized Setup: Dockerized for easy deployment.
 
 
-## Installation
+ Installation
 
-### Prerequisites
+ Prerequisites
 - Python 3.9+
 - Docker and Docker Compose
 
-### Steps
+ Steps
 1. Clone the repository:
    ```bash
    git clone https://github.com/Vinay45454/News_Analysis_Project
@@ -37,24 +37,24 @@ A comprehensive project for automating news article analysis, integrating web sc
 
 ---
 
-## Directory Structure
+ Directory Structure
 ```
 📁 Project Root
-├── .env                     # Environment variables
-├── Data Science Project Assessment.pdf  # Project brief
-├── dbstore.py               # MongoDB storage logic
-├── docker-compose.yml       # Docker Compose configuration
-├── Dockerfile               # Dockerfile for app containerization
-├── entity_extraction.py     # Entity extraction using spaCy
-├── news_analysis_report.docx  # Detailed project report
-├── news_scraper.py          # Scrapes articles from URLs
-├── requirements.txt         # Python dependencies
-├── sentiment_analysis.py    # Sentiment analysis with VADER
+├── .env                      Environment variables
+├── Data Science Project Assessment.pdf   Project brief
+├── dbstore.py                MongoDB storage logic
+├── docker-compose.yml        Docker Compose configuration
+├── Dockerfile                Dockerfile for app containerization
+├── entity_extraction.py      Entity extraction using spaCy
+├── news_analysis_report.docx   Detailed project report
+├── news_scraper.py           Scrapes articles from URLs
+├── requirements.txt          Python dependencies
+├── sentiment_analysis.py     Sentiment analysis with VADER
 ```
 
 ---
 
-## Usage
+ Usage
 1. Input: 
    - Enter a URL or paste article text into the Streamlit interface.
 2. Processing:
@@ -68,7 +68,7 @@ A comprehensive project for automating news article analysis, integrating web sc
 
 ---
 
-## Technologies Used
+ Technologies Used
 - Python Libraries: 
   - `spaCy`, `vaderSentiment`, `BeautifulSoup`, `pymongo`, `streamlit`
 - MongoDB: For persistent storage.
@@ -77,7 +77,7 @@ A comprehensive project for automating news article analysis, integrating web sc
 
 ---
 
-## Future Improvements
+ Future Improvements
 - 🔍 Advanced NLP Models: Use transformer models like BERT for improved accuracy.
 - ⏳ Dynamic Content Handling: Integrate Selenium for JavaScript-heavy websites.
 - 📈 Feedback Loop: Regularly refine NLP accuracy based on user feedback.
@@ -85,7 +85,7 @@ A comprehensive project for automating news article analysis, integrating web sc
 ---
 
 
-## Contact
+ Contact
 - Name: Vinay Tiwari
 - Email: tiwarivinay9310@gmail.com  
 ```  
