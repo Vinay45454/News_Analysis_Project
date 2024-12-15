@@ -1,0 +1,9 @@
+python-dotenv
+requests
+beautifulsoup4
+streamlit
+pymongo
+textblob
+spacy
+vaderSentiment
+typing
